@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, OnChanges, SimpleChanges} from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { OnDestroy } from '@angular/core/src/metadata/lifecycle_hooks';
 import { Subscription } from 'rxjs/Subscription';
@@ -12,11 +12,12 @@ import { janusGlobal } from '../../environments/janusGlobal';
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
-export class NavComponent implements OnInit, OnDestroy {
+export class NavComponent implements OnInit, OnDestroy  {
   collapsed = true;
   currentApp = 'Janus';
   apps: Array<App> = janusGlobal.apps;
   urlSubscription: Subscription;
+
 
   constructor(private title: Title, private router: Router) { }
 

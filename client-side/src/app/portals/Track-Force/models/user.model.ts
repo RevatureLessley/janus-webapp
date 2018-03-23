@@ -3,10 +3,10 @@
  * @author Leng
  */
 
- export class User{
-     username: String;
-     passwordHash: String;
-     tfRoleId: number;
-     userId: number;
-     token: string;
- }
+export class User{
+    username: String;
+    passwordHash: String;
+    tfRoleId: number;
+    userId: number;
+    token: string;
+}

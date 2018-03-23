@@ -1,23 +1,21 @@
-.max-dim{
-    width: 100%!important;
-    height: 100%!important;
-    padding: 0px;
-	margin:0px;
+.client-list-page{
+	background-color: #ebedea;
+	padding: 20px;
 }
 
 #clients-list{
 	margin-top: 20px;
 }
-.custom-btn{
-	margin-bottom: 20px;
-	background-color: #f5f5f5;
+
+#clients-list-well {
+	margin-top: 20px;
+	padding-top: 0px;
+	max-height: 350px;
+	overflow-y: scroll;
 }
 
-.h1, h1 {
-   font-size: 36px;
-}
 li{
-	padding: 5px;	
+	padding: 5px;
 	margin-top: 0px;
 }
 ul{
@@ -26,113 +24,12 @@ ul{
 	padding: 0;
 	list-style-type: none;
 }
-.well[_ngcontent-c6] {
-	padding-top: 0px;
- }
- .well[_ngcontent-c1] {
-	padding-top: 0px;
- }
- * {
-	box-sizing: border-box;
- }
-.well {
-	min-height: 20px;
-	padding: 19px;
-	margin-bottom: 20px;
-	background-color: #f5f5f5;
-	border: 1px solid #e3e3e3;
-	border-radius: 4px;
-
-	box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
- }
 
 .client-name{
 	color: #757575;
 }
-
-:after, :before {
-   box-sizing: border-box;
-}
-
-.client-list-page{
-	background-color: #ebedea;
-	padding: 20px;
-}
-.bk-color{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: black;
-	background-color: #ebedea;
- }
-
-.custom-btn[_ngcontent-c1] {
-   margin-bottom: 20px;
-   background-color: #f5f5f5;
-}
-
-.h3, h3 {
-   font-size: 24px;
-}
-
-
-.h1, .h2, .h3, h1, h2, h3 {
-   margin-top: 20px;
-   margin-bottom: 10px;
-}
-
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-   font-family: inherit;
-   font-weight: 500;
-   line-height: 1.1;
-   color: inherit;
-}
-h1 {
-	display: block;
-	margin: .67em 0;
-	-webkit-margin-before: 0.67em;
-	-webkit-margin-after: 0.67em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
- }
-h3 {
-   display: block;
-   -webkit-margin-before: 1em;
-   -webkit-margin-after: 1em;
-   -webkit-margin-start: 0px;
-   -webkit-margin-end: 0px;
-}
-
 .client-name:hover{
 	color: #121212;
 	cursor: pointer;
 	text-decoration: underline;
 }
-
-::before{
-	display: table;
-	content: " ";
- }
-
-::after{
-   clear: both;
-   display: table;
-   content: " ";
-}
-.btn {
-	display: inline-block;
-	padding: 6px 12px;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	touch-action: manipulation;
-	cursor: pointer;
-	user-select: none;
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 4px;
- }

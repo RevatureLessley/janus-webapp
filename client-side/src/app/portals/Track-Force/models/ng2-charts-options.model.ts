@@ -55,7 +55,7 @@ export class ChartOptions {
     options.responsive = isResponsive;
     options.maintainAspectRatio = maintainAspectRatio;
     return options;
-  }
+  };
 
   /**
    * convenience method for construction options with legend and title options

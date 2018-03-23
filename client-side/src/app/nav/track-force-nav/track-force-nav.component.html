@@ -1,18 +1,27 @@
 <ul class="navbar-nav ml-auto">
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/TrackForce/home">Home</a>
+    <li class="nav-item" *ngIf="user">
+      <a class="nav-link" routerLink="/TrackForce/home">Home</a>
+    </li>
+    <li class="nav-item" *ngIf="user">
+      <a class="nav-link" routerLink="/TrackForce/client-listing">Client List</a>
+    </li>
+    <li class="nav-item" *ngIf="user">
+      <a class="nav-link" routerLink="/TrackForce/batch-listing">Batch List</a>
+    </li>
+    <li class="nav-item" *ngIf="user">
+      <a class="nav-link" routerLink="/TrackForce/associate-listing">Associate List</a>
+    </li>
+    <li class="nav-item" *ngIf="user">
+      <a class="nav-link" routerLink="/TrackForce/predictions">Predictions</a>
+    </li>
+  <li class="nav-item" *ngIf="user">
+    <a class="nav-link" (click)="logout()">Logout</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/TrackForce/client-listing">Client List</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/TrackForce/batch-listing">Batch List</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/TrackForce/associate-listing">Associate List</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/TrackForce/create-user">Create User</a>
-  </li>
-
+    <li class="nav-item" *ngIf="!user">
+      <a class="nav-link" routerLink="/TrackForce/create-user">Create User</a>
+    </li>
+    <li class="nav-item" *ngIf="!user">
+      <a class="nav-link" routerLink="/TrackForce/login">Login</a>
+    </li>
+  <!-- added stuff -->
 </ul>

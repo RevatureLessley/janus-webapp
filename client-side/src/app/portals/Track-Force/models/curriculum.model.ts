@@ -1,4 +1,4 @@
 export class Curriculum {
-    id: number;
-    name: string;
+    id: number
+    name: string
 }

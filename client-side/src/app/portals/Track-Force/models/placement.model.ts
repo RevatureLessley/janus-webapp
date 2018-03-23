@@ -1,4 +1,4 @@
-import { Associate } from './associate.model';
+import { Associate } from "./associate.model";
 
 
 export class Placement {

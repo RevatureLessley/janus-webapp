@@ -1,18 +1,32 @@
-.bk-color{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: black;
-    background-color: #ebedea;
-  }
-  
-.max-dim{
-  width: 100%!important;
-  height: 73vh!important;
-  padding-top: 25px;
-  margin:0px;
+.min-height {
+  min-height: 100vh;
 }
 
-.container{
-    padding-top: 35px;
+.bg-white {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+table {
+  background: #fefefe;
+  border-width: 2px;
+}
+
+.info td:first-child {
+  font-weight: bold;
+}
+
+.toggledContainer {
+  min-height: 300px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  background-color: white;
+  border: 2px solid lightgrey;
 }

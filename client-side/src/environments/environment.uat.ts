@@ -6,7 +6,8 @@ const context = 'https://dev-caliber.revature.tech/';
 export const environment = {
   production: false,
   context: context, // change for what the production environment would actually be
-  url: 'http://localhost:8085/',
+  // url: 'http://localhost:8085/',
+  url: 'http://54.166.255.85:8085/',
 
   assessment: {
     fetchByBatchIdByWeek: (batchId: number, week: number) => `${context}trainer/assessment/${batchId}/${week}`,

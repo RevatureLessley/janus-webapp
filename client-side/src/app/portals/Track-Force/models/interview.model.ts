@@ -1,4 +1,4 @@
-import { Associate } from './associate.model';
+import { Associate } from "./associate.model";
 import { EndClient } from './end-client.model';
 
 
